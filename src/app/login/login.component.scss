@@ -115,3 +115,104 @@ h1{
     box-shadow: none;
     border-color: var(--c-brand);
 }
+
+/* ============================= */
+/* 📱 Mobile Devices (max 576px) */
+/* ============================= */
+@media screen and (max-width: 576px) {
+  #contact .container-fluid {
+    width: 95% !important;
+    padding: 1rem;
+  }
+
+  #contact form {
+    padding: 1.5rem !important;
+    margin-top: 1rem;
+  }
+
+  #contact h1.display-4 {
+    font-size: 1.8rem;
+  }
+
+  #contact .btn.btn-brand {
+    font-size: 13px;
+    padding: 10px 15px;
+  }
+
+  .line2 {
+    column-gap: 1rem;
+    font-size: 13px;
+  }
+
+  .para {
+    font-size: 13px;
+  }
+
+  .form-floating label {
+    font-size: 13px;
+  }
+
+  #contact::after {
+    background-position: center;
+    background-size: cover;
+    filter: brightness(0.8);
+  }
+}
+
+/* ============================= */
+/* 💻 Tablets (min 577px – max 992px) */
+/* ============================= */
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  #contact .container-fluid {
+    width: 80% !important;
+    padding: 2rem;
+  }
+
+  #contact form {
+    padding: 2.5rem !important;
+  }
+
+  #contact h1.display-4 {
+    font-size: 2.2rem;
+  }
+
+  .line2 {
+    column-gap: 1.5rem;
+  }
+
+  .btn.btn-brand {
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+}
+
+/* ============================= */
+/* 🖥️ Laptops (min 993px – max 1400px) */
+/* ============================= */
+@media screen and (min-width: 993px) and (max-width: 1400px) {
+  #contact .container-fluid {
+    width: 50% !important;
+    padding: 2rem 3rem;
+  }
+
+  #contact h1.display-4 {
+    font-size: 2.5rem;
+  }
+
+  .btn.btn-brand {
+    font-size: 15px;
+  }
+}
+
+/* ============================= */
+/* 🖥️ Large Desktop (above 1400px) */
+/* ============================= */
+@media screen and (min-width: 1401px) {
+  #contact .container-fluid {
+    width: 40%;
+  }
+
+  #contact form {
+    padding: 3rem 4rem !important;
+  }
+}

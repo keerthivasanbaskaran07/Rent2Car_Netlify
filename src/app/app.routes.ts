@@ -45,7 +45,10 @@ export const routes: Routes = [
     {path: 'contact', component:ContactUsComponent},
     {path: 'help', component:HelpComponent},
     {path:'Dprofile', component:DriverProfileComponent},
-    {path:'payment', component:PaymentComponent}
+    {path:'payment', component:PaymentComponent},
+    
+    { path: '**', redirectTo: '', pathMatch: 'full' }
+
     
     
 
